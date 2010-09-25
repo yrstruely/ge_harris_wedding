@@ -1,0 +1,169 @@
+/* 
+    Document   : custom
+    Created on : Sep 25, 2010, 9:47:49 PM
+    Author     : kerry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.container {
+    width: 700px;
+    font-family: fantasy;
+    color: orangered;
+}
+
+body {
+    background: grey;
+    background-image:url('/images/PhotoGray_browser_bg-3.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+header {
+    padding-top: 20px;
+    font-size: 150%;
+    border-top-style: solid;
+    border-top-color: whitesmoke;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+    border-bottom-width: 1px;
+    background-image:url('/images/PhotoGray_bg_c-1.jpg');
+    background-image:url('/images/Darkroom_spotlight.jpg');
+    background-image:url('/images/PhotoGray_nav_bg.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+header img {
+    padding: 1em;
+    background: grey;
+}
+
+section {
+    margin-top: 0;
+    font-size: 120%;
+    padding: 20px;
+    background: darkgray;
+    background-image:url('/images/PhotoGray_bg_c-1.jpg');
+    background-image:url('/images/Darkroom_spotlight.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+section h1 {
+    color: orange;
+    font-size: 200%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 0;
+    width: 700px;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+    border-bottom-width: 1px;
+    background-image:url('/images/PhotoGray_bg_c-1.jpg');
+    background-image:url('/images/Darkroom_spotlight.jpg');
+    background-image:url('/images/PhotoGray_nav_bg.jpg');
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+footer nav {
+    float: none;
+}
+
+
+/* Links */
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: orangered;
+}
+
+/* Navigation */
+
+nav {
+    float: none;
+}
+
+nav {
+    padding: 0 0.7em;
+    white-space: nowrap;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.2em 0;
+}
+
+nav ul li a {
+    padding: 0 15px;
+    font-weight: bold;
+    color: orange;
+}
+
+nav ul li a:visited {
+    color: orangered;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Get Invited button */
+
+a.get_invited_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: orange;
+
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Round corners */
+/*
+.round {
+    -moz-border-radius:    5px;
+    -webkit-border-radius: 5px;
+    border-radius:         5px;
+}
+*/
+
+
