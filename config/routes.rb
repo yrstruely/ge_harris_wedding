@@ -7,7 +7,7 @@ GeHarrisWedding::Application.routes.draw do
   match '/about',           :to => 'pages#about'
   match '/help',            :to => 'pages#help'
   match '/getinvited',      :to => 'users#new'
-  match '/getinvited/:id',  :to => 'users#show'
+ # match '/getinvited/:id',  :to => 'users#show'
 
 
   root :to => 'pages#home'
