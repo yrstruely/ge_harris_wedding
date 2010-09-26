@@ -1,12 +1,13 @@
 GeHarrisWedding::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   get "pages/home"
 
-  match '/contact',     :to => 'pages#contact'
-  match '/about',       :to => 'pages#about'
-  match '/help',        :to => 'pages#help'
-  match '/getinvited',  :to => 'users#new'
+  match '/contact',         :to => 'pages#contact'
+  match '/about',           :to => 'pages#about'
+  match '/help',            :to => 'pages#help'
+  match '/getinvited',      :to => 'users#new'
+  match '/getinvited/:id',  :to => 'users#show'
 
 
   root :to => 'pages#home'
